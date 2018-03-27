@@ -13,3 +13,17 @@
 # > Hello there
 # > Hello there
 # > Hello there
+
+# print sting on same line n number of times
+def p_times(string, num):
+    print((string + " ") * num)
+
+p_times('Hello', 4)
+
+
+# print string on individual line n number of times
+def p_times(string, num):
+    for i in range(num):
+        print (string)
+
+p_times('help me', 5)

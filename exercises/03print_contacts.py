@@ -20,3 +20,11 @@ contacts = {
   'Lenny': '444-444-4444',
   'Daniel': '777-777-7777'
 }
+for person in contacts:
+    name=person
+    number=contacts[person]
+    print(f'{name} has a phone number of {number}')
+
+## alternate way
+for person in contacts:
+    print(f'another way to format: {person} has a phone number of {contacts[person]} ')

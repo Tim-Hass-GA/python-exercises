@@ -10,3 +10,11 @@
 # multiply_by([1, 2, 3], 5)
 #
 # > [5, 10, 15]
+
+def multiply_by(num, array):
+  for i in range(len(array)):
+    array[i] = array[i] * num
+  return array
+
+print(multiply_by(5,[1,2,3]))
+# mulitply the number by each item in the array
